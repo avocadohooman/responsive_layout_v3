@@ -1,0 +1,118 @@
+/* Global Layout Set-up */
+* {
+box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #fafafa;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+/* Link Styles */
+
+a {
+    text-decoration: none;
+    color: 4a4a4a;
+}
+
+/* Section Styles */
+.main-nav,
+.nav {
+    display: block;
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav li {
+    margin-bottom: 6px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background: white;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.name {
+ margin-top: 40px;   
+ padding-bottom: 30px;
+}
+
+.name h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.welcome {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.img {
+    margin-bottom: 20px;
+}
+
+.description p {
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.portfolio {
+    background: white;
+    text-align: center;
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.portfolio h3 {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.marketing,
+.search,
+.travel,
+.map,
+.photo,
+.calculator {
+    margin-bottom: 50px;
+}
+
+/* Image Styles */
+.img-p1,
+.img-p2,
+.img-p3,
+.img-p4,
+.img-p5,
+.img-p6 {
+ max-width: 100%;
+}
+
+/* Media Queries */
+@media only screen and (min-width:1024px) {
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+}
+
+@media (min-width: 768px) {
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+      }
+}
