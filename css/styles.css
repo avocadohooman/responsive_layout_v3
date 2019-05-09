@@ -62,6 +62,7 @@ a {
 .description p {
 margin-left: 20px;
 margin-right: 20px;
+line-height: 1.5em;
 }
 
 .portfolio {
@@ -99,7 +100,14 @@ margin-right: 20px;
     text-transform: uppercase;
 }
 
-.contact p {
+/*.contact p {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: lighter;
+} */
+
+.contact-msg,
+.contact-details {
     display: inline-block;
     margin-right: 10px;
     font-weight: lighter;
@@ -131,8 +139,171 @@ margin-right: 20px;
 }
 
 /* Media Queries */
-@media only screen and (min-width:1024px) {
 
+@media (min-width: 768px) {
+
+.nav li {
+        display: inline-block;
+        list-style-type: none;
+        text-align: center;
+        padding: 10px;
+        background: none;
+    }
+
+.image {
+    float: right;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.description p {
+    text-align: left;
+    font-size: 1.2em;
+    padding-left: 20px;
+    line-height: 1.5em;
+}
+
+.portfolio {
+    background: white;
+    text-align: center;
+    margin-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.col {
+max-width: 50%;
+}
+
+.search,
+.map,
+.calculator {
+    float: right;
+    padding-left: 10px;
+}
+
+.marketing,
+.travel,
+.photo {
+    float: left;
+    padding-right: 10px;
+}
+
+.contact {
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-bottom: 30px;
+}
+.contact-msg {
+    display: block;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.contact-details {
+    font-size: 1.2em;
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: lighter;
+}
+
+#footer-mobile {
+    display: none;
+}
+#footer-desktop {
+    display: block;
+}
+
+#footer-desktop .nav {
+    float: right;
+    text-transform: uppercase;
+    padding-right: 30px;
+}
+
+#footer-desktop .name-footer {
+    float: left;
+    padding-left: 30px;
+}
+
+.clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+          }
+    }
+
+    
+@media (min-width:1024px) {
+
+.main-nav ul,
+.name {
+    margin-top: 0;
+} 
+
+.main-nav {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.nav li {
+    float: right;
+}
+
+.name {
+    float: left;
+}
+
+.image {
+    float: right;
+    padding-right: 70px;
+    padding-left: 50px;
+}
+
+.description p {
+    text-align: left;
+    font-size: 1.2em;
+    padding-left: 30px;
+    line-height: 1.5em;
+}
+
+.portfolio {
+    background: white;
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.col {
+    max-width: 33.33333%;
+    }
+.search,
+.map,
+.travel {
+    float: right;
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+.marketing,
+.calculator,
+.photo {
+    float: left;
+    padding-right: 20px;
+    padding-left: 0;
+}
+.portfolio p {
+    line-height: 1.5em;
+    font-weight: lighter;
+
+}
+
+.contact {
+    margin-right: 50px;
+    margin-left: 50px;
+}
 
 .clearfix:after {
     content: "";
@@ -141,13 +312,3 @@ margin-right: 20px;
     }
 }
 
-@media (min-width: 768px) {
-
-
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-      }
-}

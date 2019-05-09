@@ -11,7 +11,7 @@
 </head>
 <body>
 <div class="wrap cleafix">
-    <nav class="main-nav">
+    <nav class="main-nav clearfix">
         <h1 class="name">Gerhard Molin</h1>
         <ul class="nav">
             <li><a href="#home">Home</a></li>
@@ -19,15 +19,15 @@
             <li><a href="#con">Contact</a></li>
         </ul>
     </nav>
-    <header id="home" class="welcome">
-        <img src="images/responsive-layout-profile.png" alt="That's me!" class="img"/>
+    <header id="home" class="welcome clearfix">
+        <img src="images/responsive-layout-profile.png" alt="That's me!" class="image"/>
         <div class="description">
             <p> Hi! I am an entrepreneur, UX designer / researcher and game designer. After spending some time in academia as PhD researcher, I founded my first company Unserious in 2016. 
             I am now eager to learn front-end development.</p>
         </div>
     </header>
 
-    <div id="port" class="portfolio col">
+    <div id="port" class="portfolio clearfix">
             <h3>Portfolio</h3>
             <div class="marketing col">
                 <img src="images/portfolio-1.png" alt="Portfolio 1" class="img-p1"/>
@@ -65,17 +65,23 @@
     </div>
     <div id="con" class="contact">
             <h3>Contact</h3>
-            <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p> 
-            <p>Phone</p><p><b>+358 45 220 3414</b></p><br>
-            <p>Email</p><p><b><a href="mailto:gerhard@minimumbadass.com">gerhard@minimumbadass.com</a></b></p>
+            <p class="contact-msg">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p> 
+            <p class="contact-details">Phone</p><p class="contact-details"><b>+358 45 220 3414</b></p><br>
+            <p class="contact-details">Email</p><p class="contact-details"><b><a href="mailto:gerhard@minimumbadass.com">gerhard@minimumbadass.com</a></b></p>
     </div>
+
     <footer id="footer-mobile">
         <h3 class="name-footer">Gerhard Molin</h3>
         <h3 class="back"><a href="#home">Back to top</a></h3>
     </footer>
     
     <footer id="footer-desktop">
-
+            <h3 class="name-footer">Gerhard Molin</h3>
+                <ul class="nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#port">Portfolio</a></li>
+                    <li><a href="#con">Contact</a></li>
+                </ul>
     </footer>
 </div>
 </body>
