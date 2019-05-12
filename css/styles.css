@@ -293,6 +293,7 @@ max-width: 50%;
     float: left;
 }
 
+
 .skill-3,
 .skill-4 {
     float: left;
@@ -309,6 +310,10 @@ max-width: 50%;
     border-left: 7.5px solid white;
 
 } 
+
+.skill-2 p{
+    padding-bottom: 20px;
+}
 
 .contact {
     margin-right: 30px;
