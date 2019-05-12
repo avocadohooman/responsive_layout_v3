@@ -126,11 +126,54 @@ line-height: 1.5em;
 }
 
 .col {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .calculator {
    padding-bottom: 40px;
+}
+
+.skills {
+    background: white;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+.skills h3 { 
+    margin-top: 0;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.skill-1 h2,
+.skill-2 h2,
+.skill-3 h2,
+.skill-4 h2 {
+    color: antiquewhite;
+}
+
+.skill-1 p,
+.skill-2 p,
+.skill-3 p,
+.skill-4 p {
+    text-align: left;
+    color: white;
+    line-height: 1.5em;
+}
+
+.box {
+    background: #363c44;
+    margin-bottom: 20px;
+}
+
+.skill-1,
+.skill-2,
+.skill-3,
+.skill-4 {
+    padding: 30px;
 }
 
 .contact {
@@ -145,12 +188,6 @@ line-height: 1.5em;
     margin-bottom: 40px;
     text-transform: uppercase;
 }
-
-/*.contact p {
-    display: inline-block;
-    margin-right: 10px;
-    font-weight: lighter;
-} */
 
 .contact-msg,
 .contact-details {
@@ -239,6 +276,39 @@ max-width: 50%;
     padding-right: 10px;
 }
 
+.skills {
+    overflow: hidden;
+}
+
+.box {
+    background-color: 363c44;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+    max-width: 50%;
+} 
+
+ .skill-1,
+.skill-2 {
+    float: left;
+}
+
+.skill-3,
+.skill-4 {
+    float: left;
+    border-top: 20px solid white;
+}
+
+.skill-1,
+.skill-3 {
+ border-right: 7.5px solid white;
+}
+
+.skill-2,
+.skill-4 {
+    border-left: 7.5px solid white;
+
+} 
+
 .contact {
     margin-right: 30px;
     margin-left: 30px;
@@ -296,7 +366,7 @@ max-width: 50%;
     padding-left: 50px;
     padding-top: 30px;
 }
-.nav li {
+.nav {
     float: right;
 }
 
@@ -318,10 +388,11 @@ max-width: 50%;
 }
 
 .portfolio {
-    background: white;
-    text-align: center;
+    /*background: white;
+    text-align: center;*/ /* --> No necessary */
     margin-right: 30px;
     margin-left: 30px;
+    margin-top: 20px;
 }
 
 .col {
@@ -348,6 +419,12 @@ max-width: 50%;
 
 }
 
+.skills {
+    overflow: hidden;
+    margin-right: 30px;
+    border-bottom: solid white 30px;
+}
+
 .contact {
     margin-right: 50px;
     margin-left: 50px;
@@ -364,4 +441,3 @@ max-width: 50%;
     clear: both;
     }
 }
-
