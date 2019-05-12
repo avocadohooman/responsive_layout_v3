@@ -278,6 +278,7 @@ max-width: 50%;
 
 .skills {
     overflow: hidden;
+    border-bottom: solid white 30px;
 }
 
 .box {
@@ -420,9 +421,8 @@ max-width: 50%;
 }
 
 .skills {
-    overflow: hidden;
+    margin-left: 30px;
     margin-right: 30px;
-    border-bottom: solid white 30px;
 }
 
 .contact {
