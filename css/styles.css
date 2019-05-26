@@ -49,8 +49,8 @@ a {
                 -2px -2px 2px  rgb(0,0,0,0.16);
     -moz-box-shadow: 2px 2px 2px rgb(0,0,0,0.16),
     -2px -2px 2px  rgb(0,0,0,0.16);
-  -webkit-box-shadow: 2px 2px 2px rgb(0,0,0,0.16),
-  -2px -2px 2px  rgb(0,0,0,0.16);    
+    -webkit-box-shadow: 2px 2px 2px rgb(0,0,0,0.16),
+    -2px -2px 2px  rgb(0,0,0,0.16);    
 } 
 a:hover {
     color: #ed6463;
